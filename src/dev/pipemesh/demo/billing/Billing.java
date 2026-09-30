@@ -21,6 +21,6 @@ public final class Billing {
             System.out.println("billing: self-test passed against orders client " + OrdersClient.VERSION);
             return;
         }
-        System.out.println("billing: acme owes " + invoice + " cents");
+        System.out.println("billing: invoice for acme, " + invoice + " cents");
     }
 }
